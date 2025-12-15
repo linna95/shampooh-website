@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Шампух - Начало</title>
+  <link rel="icon" href="images/logor.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header-bg shadow-sm py-1">
+    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
+      <a href="index.html" class="logo-link">
+        <img src="images/logooo.png" class="header-logo" alt="logo">
+      </a>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-start justify-content-lg-center" id="mainNav">
+          <ul class="navbar-nav gap-3 text-start text-lg-center py-3 py-lg-0">
+            <li class="nav-item">
+              <a class="nav-link header-link" href="index.html"><i class="fas fa-paw"></i> Начало</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-link" href="about.html"><i class="fas fa-paw"></i> За нас</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link header-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-paw"></i> Услуги</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="services.html">Цялостен груминг куче/котка</a></li>
+                <li><a class="dropdown-item" href="services.html">Поддръжка на лапи и нокти</a></li>
+                <li><a class="dropdown-item" href="services.html">Виж всички</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-link" href="contact.html"><i class="fas fa-paw"></i> Контакти</a>
+            </li>
+          </ul>
+
+          <div class="d-flex flex-column flex-lg-row gap-2 mt-3 mt-lg-0 ms-lg-3 text-start">
+          <a class="btn btn-7 text-white" data-bs-toggle="modal" data-bs-target="#loginModal">
+            <span><img src="images/vhod.png" class="btn-icon me-1" alt="vhod"> Вход</span>
+          </a>
+          <a href="editProfile.html" class="btn btn-7 text-white">
+            <span><img src="images/regi.png" class="btn-icon me-1" alt="register"> Профил</span>
+          </a>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section class="hero-section py-5 mb-2 position-relative overflow-hidden">
+  <div class="container position-relative z-1 ">
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-6 text-center text-lg-start" id="hero-text">
+        <h1 class="fw-bold mb-3">ЗАЩОТО ВСЯКО <br> ГАЛЕНЕ ЗАСЛУЖАВА <br> ДА БЪДЕ ЧИСТО.</h1>
+        <p class="fs-5 mx-auto mx-lg-0" style="max-width:450px;">
+          Дай на своя любимец най-добрата грижа - естествени продукти,
+          професионална грижа и много любов от Груминг салон „Шампух“.
+        </p>
+        <div class="d-flex justify-content-center justify-content-lg-start " id="hero-buttons">
+          <a href="contact.html" class="btn btn-grad py-2 px-3">
+            <img src="images/cat1.png" class="btn-icon me-2" alt="cat1"> Запиши час
+          </a>
+          <a href="services.html" class="btn btn-grad2 py-2 px-3">
+            <img src="images/dog1.png" class="btn-icon me-2" alt="dog"> Нашите услуги
+          </a>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end position-relative" id="hero-images" style="height:350px;">
+        <div class="rounded-circle overflow-hidden" style="width:300px; height:300px;">
+          <img src="images/dog2.jpg" class="img-fluid" alt="dog1">
+        </div>
+        <div class="dog-hero rounded-circle overflow-hidden position-absolute">
+          <img src="images/dog.png" class="img-fluid" alt="dog2">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="service" class="py-2 mb-2">
+  <div class="container text-center">
+    <p class="text-uppercase text-secondary-light mb-2 text-center">Услуги</p>
+    <h2 class="text-center mb-5 text-primary-dark">Поглезете вашия любимец с нашите професионални услуги</h2>
+
+    <div class="row g-1 justify-content-center mt-2">
+      <div class="col-6 col-md-4 col-lg-4">
+        <div class="card border-0 text-center shadow-sm p-3 h-100 d-flex flex-column">
+          <img src="images/bath.png" class="mx-auto mb-3" style="width:70px;" alt="bath">
+          <p class="fw-bold mb-2">Баня</p>
+          <p class="text-muted">Процес на къпане на най-добрия ви приятел, използвайки специален шампоан и много любов и грижа.</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4">
+        <div class="card border-0 text-center shadow-sm p-3 h-100 d-flex flex-column">
+          <img src="images/cutnails.png" class="mx-auto mb-3" style="width:70px;" alt="cutnails">
+          <p class="fw-bold mb-2">Подрязване на ноктите</p>
+          <p class="text-muted">Редовното подрязване на ноктите е важно, за да се избегнат дискомфорт и здравословни проблеми за вашия домашен любимец.</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4">
+        <div class="card border-0 text-center shadow-sm p-3 h-100 d-flex flex-column">
+          <img src="images/cleanears.png" class="mx-auto mb-3" style="width:70px;" alt="cleanears">
+          <p class="fw-bold mb-2">Почистване на уши</p>
+          <p class="text-muted">Редовното почистване на ушите помага за предотвратяване на натрупването на ушна кал и евентуални инфекции.</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4">
+        <div class="card border-0 text-center shadow-sm p-3 h-100 d-flex flex-column">
+          <img src="images/grooming.png" class="mx-auto mb-3" style="width:70px;" alt="grooming">
+          <p class="fw-bold mb-2">Груминг</p>
+          <p class="text-muted">Грумингът е процес на грижа и хигиена за домашни любимци, включващ четкане, къпане и подстригване на козината.</p>
+        </div>
+      </div>
+
+      <div class="col-6 col-md-4 col-lg-4">
+        <div class="card border-0 text-center shadow-sm p-3 h-100 d-flex flex-column">
+          <img src="images/cleanteeth.png" class="mx-auto mb-3" style="width:70px;" alt="cleanteeth">
+          <p class="fw-bold mb-2">Миене на зъби</p>
+          <p class="text-muted">За орална хигиена и профилактика на заболявания за вашия домашен любимец</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="d-flex justify-content-center mt-4">
+    <a href="services.html" class="btn btn-grad gap-6 px-2 py-1">
+      <span><img src="images/euro.png" class="btn-icon" alt="Ceni"> Виж цените</span>
+    </a>
+  </div>
+</section>
+
+
+<section id="about" class="about container py-5">
+  <p class="text-uppercase text-secondary-light mb-2 text-center">За нас</p>
+  <h2 class="text-center mb-5 text-primary-dark">За груминг салон „Шампух“</h2>
+
+  <div class="row align-items-center mb-5">
+    <div class="col-lg-6"><img src="images/about-1.png" class="img-fluid rounded" alt="about"></div>
+    <div class="col-lg-6 text-center text-lg-start">
+      <img src="images/about-1-icon.png" class="mb-3" style="width:50px;" alt="icon">
+      <h4 class="text-primary-dark">Професионален груминг</h4>
+      <p class="fw-light"><span class="fw-bold">Shampooh Grooming</span> е специализиран груминг салон, създаден с мисията да осигури 
+        най-добрата грижа за вашите домашни любимци. В свят, в който нашите домашни любимци са не просто животни, а 
+        част от семейството, грижата за тяхната визия и здраве е от първостепенно значение. Груминг салон Shampooh 
+        е мястото, където професионализъм и любов към животните се сливат. Това гарантира безупречно обслужване и най-доброто 
+        за вашия четириног приятел. Нашият екип от квалифицирани специалисти комбинира професионализъм и любов към животните. 
+      Това гарантира комфорт, безопасност и стил за вашите кучета и котки.</p>
+    </div>
+  </div>
+
+  <div class="row align-items-center mb-5 flex-lg-row-reverse">
+    <div class="col-lg-6"><img src="images/about-2.png" class="img-fluid rounded" alt="about"></div>
+    <div class="col-lg-6 text-center text-lg-start">
+      <img src="images/about-2-icon.png" class="mb-3" style="width:50px;" alt="icon">
+      <h4 class="text-primary-dark">Защо да изберете груминг салон Shampooh?</h4>
+      <p class="fw-light"><span class="fw-bold">Експертна грижа:</span> Салонът предлага квалифицирано и опитни грумъри. Те подхождат 
+        с индивидуално внимание към всяко животно. <br> <span class="fw-bold">Професионално оборудване:</span> В салона се използват висококачествени инструменти и продукти, специално подбрани за различните видове козина и кожа. <br>  <span class="fw-bold">Спокойна и приятелска атмосфера:</span> Разбираме, че някои любимци изпитват стрес при разкрасителни процедури. Затова се стремим да осигурим максимален комфорт и спокойствие по време 
+        на всяка сесия. Индивидуален подход: Всеки домашен любимец има своите нужди и предпочитания. Затова адаптираме процедурите спрямо 
+      неговите изисквания.</p>
+    </div>
+  </div>
+</section>
+
+<section id="store" class="py-5 bg-light">
+  <div class="container text-center">
+    <p class="text-uppercase text-secondary-light mb-2">Продукти</p>
+    <h2 class="mb-5 text-primary-dark">Подбрани продукти за любимци</h2>
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm h-100">
+          <img src="images/product-2.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h4 class="card-title text-primary-dark">Котешка храна</h4>
+            <p class="card-text text-secondary-light">Здравословна и вкусна храна за котката ви - за блясък на козината, енергия и щастливи моменти.</p>
+            <h5 class="fw-bold text-primary-dark">79.00 лв.</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm h-100">
+          <img src="images/product-1.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h4 class="card-title text-primary-dark">Mystery Dog Box - изненада за вашия домашен любимец!</h4>
+            <p class="card-text text-secondary-light">Всяка кутия съдържа селекция от лакомства, играчки и аксесоари, 
+            подбрани специално за кучета, за да ги забавляват и радват всеки месец.</p>
+            <h5 class="fw-bold text-primary-dark">59.00 лв.</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card border-0 shadow-sm h-100">
+          <img src="images/product-3.jpg" class="card-img-top" alt="product">
+          <div class="card-body">
+            <h4 class="card-title text-primary-dark">Кучешка храна</h4>
+            <p class="card-text text-secondary-light">Пълноценна храна за активни и здрави кучета - вкус и хранителни вещества в перфектен баланс.</p>
+            <h5 class="fw-bold text-primary-dark">79.00 лв.</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-primary-light">
+  <div class="container text-center">
+    <p class="text-uppercase text-secondary-light mb-2">Отзиви</p>
+    <h2 class="mb-5 text-primary-dark">Какво казват клиентите</h2>
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="card border-0 shadow-sm p-4">
+            <div class="d-flex align-items-center mb-3">
+              <img src="images/client-1.jpg" class="rounded-circle me-3" style="width:50px;" alt="client">
+              <div class="text-start">
+                <h5 class="mb-0 text-primary-dark">Вихра Йораднова</h5>
+                <small class="text-secondary-light">Лекар</small>
+              </div>
+            </div>
+            <p class="text-secondary-light">От години водя моето куче тук и винаги съм впечатлена. 
+            Любезен персонал, индивидуален подход и страхотни резултати!</p>
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="card border-0 shadow-sm p-4">
+            <div class="d-flex align-items-center mb-3">
+              <img src="images/client-2.jpg" class="rounded-circle me-3" style="width:50px;" alt="client">
+              <div class="text-start">
+                <h5 class="mb-0 text-primary-dark">Цветелина Мошева</h5>
+                <small class="text-secondary-light">Програмист</small>
+              </div>
+            </div>
+            <p class="text-secondary-light">Моята котка Прити обикновено се страхува при груминг, но тук 
+            персоналът се справи чудесно. Прити беше спокойна през цялото време и излезе с красива и мека козинка.</p>
+          </div>
+        </div>
+
+
+        <div class="swiper-slide">
+          <div class="card border-0 shadow-sm p-4">
+            <div class="d-flex align-items-center mb-3">
+              <img src="images/client-3.png" class="rounded-circle me-3" style="width:50px;" alt="client">
+              <div class="text-start">
+                <h5 class="mb-0 text-primary-dark">Заки Росенов</h5>
+                <small class="text-secondary-light">Готвач</small>
+              </div>
+            </div>
+            <p class="text-secondary-light">Изключително доволен съм от грижите, които получи моето куче. Екипът е внимателен и професионален.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-5">
+  <div class="container text-center">
+    <p class="text-uppercase text-secondary-light mb-2">Последвайте ни в</p>
+    <h2 class="text-primary-dark insta">Instagram</h2>
+    <p class="text-dark fw-bold">Shampooh Grooming Salon <span class="text-secondary">@shampooh_grooming</span></p>
+    <div class="row g-2">
+      <div class="col-6 col-md-3">
+        <div class="ratio ratio-1x1">
+          <img src="images/insta1.jpg" class="img-fluid rounded" alt="instagram">
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="ratio ratio-1x1">
+          <img src="images/insta2.jpg" class="img-fluid rounded" alt="instagram">
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="ratio ratio-1x1">
+          <img src="images/cat3.jpg" class="img-fluid rounded" alt="instagram">
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="ratio ratio-1x1">
+          <img src="images/insta4.jpg" class="img-fluid rounded" alt="instagram">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer1">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-3 col-md-6">
+        <a href="index.html" class="logo-link">
+          <img src="images/logooo.png" class="footer-logo img-fluid mb-2" alt="logo">
+        </a>
+        <h5 class="footer-title">Последвайте ни</h5>
+        <div class="d-flex flex-wrap gap-2 mt-3">
+          <a href="#" class="btn-social facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="btn-social instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="btn-social tiktok"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h5 class="footer-title">Услуги</h5>
+        <ul class="footer-list">
+          <li><a href="services.html">Цялостен груминг</a></li>
+          <li><a href="services.html">Поддръжка на лапи и нокти</a></li>
+          <li><a href="services.html">Почистване на уши, очи и лапи</a></li>
+          <li><a href="services.html">Миене на зъби</a></li>
+          <li><a href="services.html">Разресване на сплъстена козина</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h5 class="footer-title">За нас</h5>
+        <ul class="footer-list">
+          <li>Когато вашият домашен любимец изглежда добре, той се чувства още по-добре!</li>
+          <li><i class="bi bi-geo-alt-fill"></i> ж.к. Възраждане, ул. „Янтра“ 9, Варна</li>
+          <li><i class="bi bi-phone-fill"></i> 0882028917</li>
+          <li><i class="bi bi-envelope-fill"></i> contacts@Shampooh.bg</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h5 class="footer-title">Работно време</h5>
+        <ul class="footer-list">
+          <li>Понеделник - Пететък: 09:00 - 18:00</li>
+          <li>Събота: 10:00 - 16:00</li>
+          <li>Неделя: Почивен ден</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="text-center pt-4 border-top border-warning mt-4">
+      <p class="fw-bolder small mb-0">&copy; 2025 - Груминг салон „Шампух“. Всички права запазени.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Modal: Вход -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="border-radius:1rem;">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-warning">Вход</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Потребителско име или имейл</label>
+            <div class="input-group">
+              <span class="input-group-text bg-warning text-white"><i class="fas fa-user"></i></span>
+              <input type="text" class="form-control" placeholder="example@mail.com" required>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Парола</label>
+            <div class="input-group">
+              <span class="input-group-text bg-warning text-white"><i class="fas fa-lock"></i></span>
+              <input type="password" class="form-control" placeholder="Парола" required>
+            </div>
+          </div>
+
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="rememberCheck">
+            <label class="form-check-label" for="rememberCheck">Запомни ме</label>
+          </div>
+          <div class="d-flex flex-column align-items-center w-100">
+            <a href="#" class="btn btn-grad w-75 mb-3 mt-2 py-2 shadow-sm fw-semibold rounded">Вход</a>
+
+            <a href="#" class="btn btn-outline-secondary w-75 py-2 shadow-sm d-flex align-items-center justify-content-center gap-2 fw-semibold rounded mb-3">
+              <img src="https://www.ue-varna.bg/admin/templates/images/login-gl-logo.png" alt="Google" width="22" height="22">
+              Вход с Google
+            </a>
+          </div>
+
+        <div class="d-flex justify-content-between small">
+          <a href="#" data-bs-target="#registerModal" data-bs-toggle="modal" data-bs-dismiss="modal">Регистрирай се</a>
+          <a href="#">Забравена парола?</a>
+        </div>
+      </form>
+  </div>
+</div>
+</div>
+</div>
+
+
+<!-- Modal: Регистрация -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded">
+
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-warning">Регистрация</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Потребителско име</label>
+            <input type="email" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Имейл</label>
+            <input type="email" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Парола</label>
+            <input type="password" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Потвърди парола</label>
+            <input type="password" class="form-control" required>
+          </div>
+
+          <button type="submit" class="btn btn-grad w-100 fw-semibold shadow-sm rounded">
+            Регистрация
+          </button>
+
+          <div class="d-flex align-items-center gap-1">
+            <p class="mb-0">Вече имаш профил?</p>
+            <a href="#" data-bs-target="#loginModal" data-bs-toggle="modal" data-bs-dismiss="modal">Вход</a>
+          </div>
+        </form>
+    </div>
+  </div>
+</div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    breakpoints: {
+      768: { slidesPerView: 2 },
+      1200: { slidesPerView: 3 }
+    },
+    loop: true,
+    autoplay: { delay: 4000 },
+  });
+</script>
+</body>
+</html>
