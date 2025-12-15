@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>За нас - Шампух</title>
+  <link rel="icon" href="images/logor.png" type="image/png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header-bg shadow-sm py-2">
+    <div class="container d-flex flex-column flex-lg-row align-items-center justify-content-between">
+      <a href="index.html" class="logo-link">
+        <img src="images/logooo.png" class="header-logo" alt="logo">
+      </a>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-start justify-content-lg-center" id="mainNav">
+          <ul class="navbar-nav gap-3 text-start text-lg-center py-3 py-lg-0">
+            <li class="nav-item">
+              <a class="nav-link header-link" href="index.html"><i class="fas fa-paw"></i> Начало</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-link" href="about.html"><i class="fas fa-paw"></i> За нас</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link header-link dropdown-toggle" href="services.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-paw"></i> Услуги</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="services.html">Цялостен груминг куче/котка</a></li>
+                <li><a class="dropdown-item" href="services.html">Поддръжка на лапи и нокти</a></li>
+                <li><a class="dropdown-item" href="services.html">Виж всички</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link header-link" href="contact.html"><i class="fas fa-paw"></i> Контакти</a>
+            </li>
+          </ul>
+
+          <div class="d-flex flex-column flex-lg-row gap-2 mt-3 mt-lg-0 ms-lg-3 text-start">
+          <a class="btn btn-7 text-white" data-bs-toggle="modal" data-bs-target="#loginModal">
+            <span><img src="images/vhod.png" class="btn-icon me-1" alt="vhod"> Вход</span>
+          </a>
+          <a href="editProfile.html" class="btn btn-7 text-white">
+            <span><img src="images/regi.png" class="btn-icon me-1" alt="register"> Профил</span>
+          </a>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+</header>
+
+<section id="team" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary-dark">Нашият екип</h2>
+      <p class="text-secondary-light">Професионалистите, които се грижат за вашите любимци</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card border-0 shadow-sm text-center h-100 bg-light">
+          <img src="images/staff1.jpg" class="card-img-top rounded-circle mx-auto mt-3 img-staff" alt="Иван Петров">
+          <div class="card-body bg-light">
+            <h5 class="card-title fw-bold mb-1">Кремена Петрова</h5>
+            <p class="text-muted mb-0">Главен грумър</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card border-0 shadow-sm text-center h-100 bg-light">
+          <img src="images/staff2.jpg" class="card-img-top rounded-circle mx-auto mt-3 img-staff" alt="Мария Георгиева">
+          <div class="card-body bg-light">
+            <h5 class="card-title fw-bold mb-1">Мария Георгиева</h5>
+            <p class="text-muted mb-0">Грумър</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card border-0 shadow-sm text-center h-100 bg-light">
+          <img src="images/staff3.jpg" class="card-img-top rounded-circle mx-auto mt-3 img-staff" alt="Петър Димитров">
+          <div class="card-body bg-light">
+            <h5 class="card-title fw-bold mb-1">Явора Димитрова</h5>
+            <p class="text-muted mb-0">Асистент грумър</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card border-0 shadow-sm text-center h-100 bg-light">
+          <img src="images/staff4.jpg" class="card-img-top rounded-circle mx-auto mt-3 img-staff" alt="Анна Иванова">
+          <div class="card-body bg-light">
+            <h5 class="card-title fw-bold mb-1">Анна Иванова</h5>
+            <p class="text-muted mb-0">Администратор</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="about-salon" class="py-5 bg-light">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold text-primary-dark">За салон „Шампух“</h2>
+      <p class="text-secondary-light fs-5 mx-auto" style="max-width:800px;">
+        В нашия груминг салон „Шампух“ се грижим с любов и професионализъм за всеки домашен любимец. 
+        Осигуряваме спокойна среда, индивидуален подход и използваме само висококачествени, безопасни продукти. 
+        Нашата мисия е да направим всяко посещение приятно както за вашия любимец, така и за вас.
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer1">
+  <div class="container">
+    <div class="row gy-4">
+      <div class="col-lg-3 col-md-6">
+        <a href="index.html" class="logo-link">
+          <img src="images/logooo.png" class="footer-logo img-fluid mb-2" alt="logo">
+        </a>
+        <h5 class="footer-title">Последвайте ни</h5>
+        <div class="d-flex flex-wrap gap-2 mt-3">
+          <a href="#" class="btn-social facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="btn-social instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="btn-social tiktok"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h5 class="footer-title">Услуги</h5>
+        <ul class="footer-list">
+          <li><a href="services.html">Цялостен груминг</a></li>
+          <li><a href="services.html">Поддръжка на лапи и нокти</a></li>
+          <li><a href="services.html">Почистване на уши, очи и лапи</a></li>
+          <li><a href="services.html">Миене на зъби</a></li>
+          <li><a href="services.html">Разресване на сплъстена козина</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h5 class="footer-title">За нас</h5>
+        <ul class="footer-list">
+          <li>Когато вашият домашен любимец изглежда добре, той се чувства още по-добре!</li>
+          <li><i class="bi bi-geo-alt-fill"></i> ж.к. Възраждане, ул. „Янтра“ 9, Варна</li>
+          <li><i class="bi bi-phone-fill"></i> 0882028917</li>
+          <li><i class="bi bi-envelope-fill"></i> contacts@Shampooh.bg</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-md-6">
+        <h5 class="footer-title">Работно време</h5>
+        <ul class="footer-list">
+          <li>Понеделник - Пететък: 09:00 - 18:00</li>
+          <li>Събота: 10:00 - 16:00</li>
+          <li>Неделя: Почивен ден</li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="text-center pt-4 border-top border-warning mt-4">
+      <p class="small mb-0 fw-bolder">&copy; 2025 - Груминг салон „Шампух“. Всички права запазени.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Modal: Вход -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content" style="border-radius:1rem;">
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-warning">Вход</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Потребителско име или имейл</label>
+            <div class="input-group">
+              <span class="input-group-text bg-warning text-white"><i class="fas fa-user"></i></span>
+              <input type="text" class="form-control" placeholder="example@mail.com" required>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Парола</label>
+            <div class="input-group">
+              <span class="input-group-text bg-warning text-white"><i class="fas fa-lock"></i></span>
+              <input type="password" class="form-control" placeholder="Парола" required>
+            </div>
+          </div>
+
+          <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="rememberCheck">
+            <label class="form-check-label" for="rememberCheck">Запомни ме</label>
+          </div>
+          <div class="d-flex flex-column align-items-center w-100">
+            <a href="#" class="btn btn-grad w-75 mb-3 mt-2 py-2 shadow-sm fw-semibold rounded">Вход</a>
+
+            <a href="#" class="btn btn-outline-secondary w-75 py-2 shadow-sm d-flex align-items-center justify-content-center gap-2 fw-semibold rounded mb-3">
+              <img src="https://www.ue-varna.bg/admin/templates/images/login-gl-logo.png" alt="Google" width="22" height="22">
+              Вход с Google
+            </a>
+          </div>
+
+        <div class="d-flex justify-content-between small">
+          <a href="#" data-bs-target="#registerModal" data-bs-toggle="modal" data-bs-dismiss="modal">Регистрирай се</a>
+          <a href="#">Забравена парола?</a>
+        </div>
+      </form>
+  </div>
+</div>
+</div>
+</div>
+
+
+<!-- Modal: Регистрация -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content rounded">
+
+      <div class="modal-header border-0">
+        <h5 class="modal-title text-warning">Регистрация</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+
+        <form>
+          <div class="mb-3">
+            <label class="form-label">Потребителско име</label>
+            <input type="email" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Имейл</label>
+            <input type="email" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Парола</label>
+            <input type="password" class="form-control" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Потвърди парола</label>
+            <input type="password" class="form-control" required>
+          </div>
+
+          <button type="submit" class="btn btn-grad w-100 fw-semibold shadow-sm rounded">
+            Регистрация
+          </button>
+
+          <div class="d-flex align-items-center gap-1">
+            <p class="mb-0">Вече имаш профил?</p>
+            <a href="#" data-bs-target="#loginModal" data-bs-toggle="modal" data-bs-dismiss="modal">Вход</a>
+          </div>
+        </form>
+    </div>
+  </div>
+</div>
+</div>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
