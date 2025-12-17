@@ -29,19 +29,6 @@ body::-webkit-scrollbar-thumb {
   }
 }
 
-@media (max-width: 1250px) {
-  #hero-images { display: none !important; }
-}
-
-@media (max-width: 1500px) {
-  #hero-text, #hero-buttons {
-    text-align: center !important;
-    justify-content: center !important;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
 .bg-primary-light {
   background-image: linear-gradient( 90.5deg,  rgba(255,207,139,0.50) 1.1%, rgba(255,207,139,1) 81.3% );
 }
@@ -399,3 +386,4 @@ body::-webkit-scrollbar-thumb {
     object-fit:cover;
 
 }
+
